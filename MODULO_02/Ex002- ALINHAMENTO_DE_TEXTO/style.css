@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* em HTML é id = em css é #;
+   em HTML é class = .;
+Posso usar mais de uma classe separadas por espaço; 
+N posso ter o mesmo ID dentro da mesma pagina; */
+
+body {
+    font: normal 16px arial, verdana, serif;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+h1#principal {
+    font-size: 50px;
+}
+p#sub {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+}
+
+.intermediario  {
+  font-size: 50px;
+}

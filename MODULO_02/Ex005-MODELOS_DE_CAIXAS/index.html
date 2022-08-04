@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 { /*BOX-LEVEL*/  
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            border-width: 5x;
+            border-style: solid;
+            border-color: darkgray;
+            padding: 10px 10px 10px 10px ; 
+            margin: auto;  /* PARA EU CENTRALIZAR O OBJETO EU POSSO COLOCAR MARGIN AUTO; OU POSSO COLOCAR AUTO SO PADA LEFT E RIGHT E ISSO TAMBEM VALE PARA TOP E BOTTOM. EX: 10PX(TOP) AUTO(RIGHT) 10PX(BOTTOM) AUTO(LEFT)*/
+
+            /* COM O PARAMETRO "DISPLAY" POSSO ALTERAR A CARACTERISTICA DE ELEMENTO TORNANDO "INLINE", "BLOCK" OU "INLINE-BLOCK" .*/
+
+        }
+        a { /* INLINE-LEVEL*/
+            
+            border-width: 5px;
+            border-style: solid ;
+            border-color: red;
+            padding: 5px 5px 10px 10px;
+           
+        }
+        p {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Caixa Box-level</h1> 
+    <p>paragráfos também são exemplos de box-level, mas os <a href="#"> links são exemplos de caixas inline-level</a></p>
+    
+</body>
+</html>
