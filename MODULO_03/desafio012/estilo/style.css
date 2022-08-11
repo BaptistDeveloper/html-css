@@ -1,4 +1,6 @@
 @charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 *{
     margin: 0px;
@@ -20,6 +22,8 @@ header h1 {
     padding-top: 50px;
     /*text-transform: uppercase;  Coloco tudo maiusculo*/
     font-variant: small-caps;
+    font-family: 'Passion One', cursive;
+    font-size: 10vh;
 }
 
 header p {
@@ -40,6 +44,10 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vh;
+    
+    
 
 }
 
@@ -50,12 +58,15 @@ section.normal {
 section.imagem {
     background-color: rgba(0, 0, 0, 0.61);
     color: white;
+    
 
 }
 
 section.imagem p {
-    width: 400px;
+   
     background-color: rgba(0, 0, 0, 0.473);
+    display: inline-block;
+    padding: 5px;
 }
 
 footer {
